@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +7,7 @@ body{
     background-image: url(images/bg\ img.jpeg);
     /* opacity: -1; */
     /* position: fixed; */
+    font-family: 'Ubuntu', sans-serif;
 }
 .navbar{
     display: flex;
@@ -285,4 +287,15 @@ service .box p{
     /* background-color: #876445; */
     width: 100%;
     
+}
+nav img{
+    width: 30px;
+    /* padding: 10px 10px; */
+    border-radius: 23px;
+    height: 30px;
+}
+nav a:hover{
+    letter-spacing: 2px;
+    transform: 2px all easein;
+    color: #876445;
 }
